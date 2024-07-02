@@ -40,8 +40,8 @@ const router = createBrowserRouter([
 
 function App() {
   <UrlProvider>
-    return <RouterProvider router={router} />
-   </UrlProvider>
+    <RouterProvider router={router}/>
+  </UrlProvider>
 
 }
 
